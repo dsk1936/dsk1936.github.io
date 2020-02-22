@@ -24,6 +24,9 @@
 
 .header{
   background-color: #B2D6FF;
+  height:auto;
+  justify-content: inherit;
+  align-items: inherit;
 }
 
 .content{
@@ -48,6 +51,11 @@
 }
 
 .illustration img{
+  width: 100%;
+  display: block;
+}
+
+.photo img{
   width: 100%;
   display: block;
 }
