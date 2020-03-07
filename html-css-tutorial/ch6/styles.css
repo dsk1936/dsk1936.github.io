@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+}
+
+a:visited:hover{
+    color: orange;
+}
+
+a:visited:active{
+    color: red;
+}
+
+.page{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.synopsis{
+    color: darkgreen;
+    font-style: italic;
+}
+
+.button{
+    color: #FFFFFF;
+    background-color: dodgerblue;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+
+    width: 200px;
+    margin: 20px auto;
+}
+
+.synopsis em{
+    font-style: normal;
+}
+
+.button:link,
+.button:visited{
+    display: block;
+    text-decoration: none;
+
+    color: white;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+
+    width: 200px;
+    margin: 20px auto;
+}
+
+
+.call-to-action{
+    font-style: italic;
+    background-color: #eeb75a;
+}
+
+.button:hover,
+.button:visited:hover{
+    color: #FFFFFF;
+    background-color: #76aeed;
+}
+
+
+.button:active,
+.button:visited:active{
+    color: #FFFFFF;
+    background-color: #5995DA;
+}
+
+.call-to-action:link,
+.call-to-action:visited{
+    font-style: italic;
+    background-color: #eeb75a;
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover{
+    background-color: #f5cf8e;
+}
+
+.call-to-action:active,
+.call-to-action:visited:active{
+    background-color: #eeb75a;
+}
+
+p:first-of-type{
+    color: #7e8184;
+    font-style: italic;
+}
+
+p:last-of-type{
+    margin-bottom: 50px;
+}
+
+#button-2{
+    color: #5D6063;
+}
