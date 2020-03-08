@@ -83,6 +83,26 @@ body{
     margin-bottom: 40px;
 }
 
+.form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+}
+
+.form-row .instructions {
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+
 .legacy-form-row legend {
     margin-bottom: 16px;
 }
@@ -140,5 +160,8 @@ body{
 
     .legacy-form-row legend {
         float: left;
+    }
+    .form-row .instructions {
+        margin-left: 120px;
     }
 }
