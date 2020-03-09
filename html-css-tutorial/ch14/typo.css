@@ -23,14 +23,6 @@ em, strong{
   font-synthesis: none;
 }
 
-em {
-  font-family: 'Roboto Light Italic', serif;
-}
-
-strong {
-  font-family: 'Roboto Bold', serif;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -39,9 +31,18 @@ strong {
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   font-size: 18px;
   line-height: 1.8em;
   color: #5D6063;
+}
+
+em {
+  font-style: italic;
+}
+
+strong{
+  font-weight: bold;
 }
 
 
