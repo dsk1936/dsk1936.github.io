@@ -3,6 +3,10 @@
   src: url("Roboto-Light-webfont.woff") format('woff');
 }
 
+em, strong{
+  font-synthesis: none;
+}
+
 * {
   margin: 0;
   padding: 0;
