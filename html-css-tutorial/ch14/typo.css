@@ -3,8 +3,26 @@
   src: url("Roboto-Light-webfont.woff") format('woff');
 }
 
+@font-face {
+  font-family: 'Roboto Light Italic';
+  src: url('Roboto-LightItalic-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url('Roboto-Bold-webfont.woff') format('woff');
+}
+
 em, strong{
   font-synthesis: none;
+}
+
+em {
+  font-family: 'Roboto Light Italic', serif;
+}
+
+strong {
+  font-family: 'Roboto Bold', serif;
 }
 
 * {
